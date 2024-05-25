@@ -1,0 +1,79 @@
+/* Gaya untuk kontainer utama biodata */
+
+.App {
+    background-color: #a76565;
+    margin: 30px;
+    padding: 30px;
+}
+
+.biodata-item img {
+    width: 100%;
+    height: 180px;
+    /* border-radius: 50%; */
+    /* margin-bottom: 30px; */
+}
+
+.biodata {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    background-color: #e79e9e;
+    border-radius: 10px;
+    margin: 5px auto;
+    max-width: 1100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk setiap item biodata */
+.biodata-item {
+    padding: 20px;
+    border: 1px solid #be5c5c;
+    border-radius: 8px;
+    background-color: #efd9d9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    /* height: 190px; */
+
+}
+
+/* Gaya hover untuk item biodata */
+.biodata-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya teks untuk paragraf dalam item biodata */
+.biodata-item p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Gaya teks tebal untuk label dalam item biodata */
+.biodata-item p strong {
+    font-weight: bold;
+    color: #b84a4a;
+}
+
+.hobby {
+    font-weight: bold;
+    color: #b84a4a;
+
+}
+
+.warga {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+    color: aliceblue;
+}
+button{
+    gap: 5px;
+    margin: 5px;
+    background-color: #b84a4a;
+    width: 60px;
+    color:aliceblue
+}
